@@ -1,0 +1,23 @@
+Package: rbstgrid
+Title: An R Package to Aggregate Grid Data to a Different Cell Size
+Date: 2022-01-07
+Version: 0.0.0.9001
+Authors@R: 
+    c(person(given = "Johan A.",
+           family = "Elkink",
+           role = "aut",
+           email = "jos.elkink@@ucd.ie"),
+      person(given = "Akisato",
+           family = "Suzuki",
+           role = c("aut", "cre"),
+           email = "akisato.suzuki@gmail.com",
+           comment = c(ORCID = "0000-0003-3691-0236")))
+Description: This package includes a function to aggregate grid data to a different cell size.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: R (>= 4.1.0)
+Imports: dplyr (>= 1.0.7),
+         rlang (>= 0.4.11)
