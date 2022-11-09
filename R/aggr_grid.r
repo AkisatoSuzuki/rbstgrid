@@ -28,17 +28,15 @@
 #' following paper:
 #'
 #' Suzuki, Akisato. 2022. "Uncertainty in Grid Data: A Theory and Comprehensive
-#' Robustness Test." arXiv:2202.03241 \[stat.ME\].
-#' https://arxiv.org/abs/2202.03241.
+#' Robustness Test." Quality & Quantity. https://doi.org/10.1007/s11135-022-01555-x.
 #'
 #' If you use this package, please cite the following items:
 #'
 #' Suzuki, Akisato. 2022. "Uncertainty in Grid Data: A Theory and Comprehensive
-#' Robustness Test." arXiv:2202.03241 \[stat.ME\].
-#' https://arxiv.org/abs/2202.03241.
+#' Robustness Test." Quality & Quantity. https://doi.org/10.1007/s11135-022-01555-x.
 #'
-#' Elkink, Johan A., and Akisato Suzuki. 2022. "rbstgrid: An R Package to
-#' Aggregate Grid Data to a Different Cell Size." R package version 0.0.0.9001.
+#' Dornschneider-Elkink, Johan A., and Akisato Suzuki. 2022. "rbstgrid: An R
+#' Package to Aggregate Grid Data to a Different Cell Size." R package version 1.0.0. https://github.com/AkisatoSuzuki/rbstgrid.
 #'
 #' @param data A data frame
 #' @param x Characters for the x coordinate variable name
@@ -52,7 +50,7 @@
 #' @param ignrNA Ignore missing values when grid cells are aggregated; default = TRUE
 #' @return A data frame containing the x and y coordinate (whose colunms are named "x" and "y" respectively), the time variable if any (whose column is named "t"), and the aggregated \code{var} (which will have the same name as the original data)
 #' @section Authors:
-#' Author: Johan A. Elkink (\email{jos.elkink@@ucd.ie})
+#' Author: Johan A. Dornschneider-Elkink (\email{jos.elkink@@ucd.ie})
 #'
 #' Author & Maintainer: Akisato Suzuki (\email{akisato.suzuki@@gmail.com})
 #'

@@ -1,10 +1,10 @@
 Package: rbstgrid
 Title: An R Package to Aggregate Grid Data to a Different Cell Size
-Date: 2022-01-07
-Version: 0.0.0.9001
+Date: 2022-10-29
+Version: 1.0.0
 Authors@R: 
     c(person(given = "Johan A.",
-           family = "Elkink",
+           family = "Dornschneider-Elkink",
            role = "aut",
            email = "jos.elkink@@ucd.ie"),
       person(given = "Akisato",
